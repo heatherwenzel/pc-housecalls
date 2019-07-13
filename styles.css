@@ -2,8 +2,11 @@ body {
   margin: 0;
 }
 
-.material-icons {
-  margin: 0;
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .material-icons, nav {
@@ -12,8 +15,7 @@ body {
 }
 
 nav {
-  border: 1px solid blueviolet;
   display: none;
   flex-direction: column;
-  margin-top: 22px;
+  margin-top: 40px;
 }
