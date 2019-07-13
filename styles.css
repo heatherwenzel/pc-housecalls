@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  background-color: gainsboro;
 }
 
 main {
@@ -17,11 +16,15 @@ header {
 #menu-icon, nav {
   position: absolute;
   right: 20px;
-  top: 16px;
+  top: 18px;
 }
 
 #menu-icon, #logo {
   z-index: 1;
+}
+
+#logo {
+  width: 68vw;
 }
 
 nav {
@@ -31,18 +34,23 @@ nav {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-top: 30px;
   padding: 20px 0;
   right: 0;
-  background-color: mediumslateblue;
+  top: 80px;
+  background-color: #D18C54;
+}
+
+nav > a {
+  text-decoration: none;
 }
 
 nav > a:visited {
-  color: black;
+  color: white;
 }
 
 #call {
-  background-color: mediumslateblue;
+  background-color: #2B365D;
+  color: white;
   border-radius: 50%;
   padding: 6px;
   position: fixed;
