@@ -12,10 +12,23 @@ header {
 .material-icons, nav {
   position: absolute;
   right: 0;
+  top: 0;
+}
+
+#menu-icon {
+  z-index: 1;
 }
 
 nav {
   display: none;
+  height: 20%;
+  width: 60%;
   flex-direction: column;
-  margin-top: 40px;
+  justify-content: space-between;
+  align-items: flex-end;
+  top: 40px;
+}
+
+nav > a:visited {
+  color: black;
 }
