@@ -76,6 +76,7 @@ nav {
 nav > a {
   text-decoration: none;
   cursor: pointer;
+  color: white;
 }
 
 nav > a:visited {
@@ -83,10 +84,11 @@ nav > a:visited {
 }
 
 #call {
+  font-size: 1.8em;
   background-color: #F39331;
   color: white;
   border-radius: 50%;
-  padding: 6px;
+  padding: 2vh;
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -116,7 +118,7 @@ footer > h6 {
 }
 
 #intro {
-  height: 92.25vh;
+  height: 93vh;
   font-size: 4.25vw;
 }
 
@@ -126,11 +128,16 @@ footer > h6 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 4vh;
+  padding-top: 1vh;
 }
 
 #intro-div > p {
   margin-top: 6px;
+}
+
+#intro-div > h3 {
+  padding-right: 20px;
+  margin-top: 8px;
 }
 
 #services {
