@@ -4,11 +4,12 @@ body {
   color: #595959;
 }
 
-header, section {
-  padding: 20px;
+section {
+  padding: 0 70px;
 }
 
 header {
+  padding: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -21,6 +22,9 @@ h2 {
 
 h3 {
   font-family: 'Bitter', serif;
+  font-size: 2em;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
 }
 
 #menu-icon, nav {
@@ -38,7 +42,12 @@ h3 {
 }
 
 #logo {
-  width: 68vw;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+#logo > span {
+  font-weight: 700;
 }
 
 nav {
@@ -54,10 +63,12 @@ nav {
   background-color: #F39331;
   color: white;
   text-transform: uppercase;
+  font-size: 1.1em;
 }
 
 nav > a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 nav > a:visited {
@@ -93,20 +104,24 @@ footer > h6 {
 
 #success {
   width: 50vw;
-  margin: 10px;
+  margin: 50px 0;
 }
 
 #intro {
-  height: 84.9vh;
-  font-size: 1.2em;
+  height: 91.4vh;
+  font-size: 1em;
 }
 
 #intro-div {
-  height: 80vh;
+  height: 82vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: flex-end;
+}
+
+#intro-div > p {
+  margin-top: 6px;
 }
 
 #services {
@@ -114,17 +129,45 @@ footer > h6 {
   color: white;
 }
 
+#services > h4 {
+  margin-bottom: 0;
+  font-size: 1.4em;
+}
+
+#services > p {
+  margin-top: 10px;
+}
+
 #about {
-  background-color: #b3e0d0;
+  background-color: #62b5a5;
 }
 
 #services, #contact, #about {
-  height: 94.35vh;
-  font-size: 1.2em;
+  height: 100vh;
+  font-size: 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+#about > h3 {
+  margin: 10px 0;
+  color: white;
+}
+
+#about > p {
+  margin: 10px 0;
+  color: white;
+}
+
+#contact > p {
+  margin: 4px 0;
+}
+
+#contact > p > a {
+  color: #00aec8;
+  text-decoration: none;
 }
 
 #doug-headshot {
