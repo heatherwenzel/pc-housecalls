@@ -68,7 +68,6 @@ nav {
   right: 0;
   top: 60px;
   background-color: #F39331;
-  color: white;
   text-transform: uppercase;
   font-size: 1.1em;
 }
@@ -208,5 +207,105 @@ footer > h6 {
     height: 100vh;
     padding-top: 0;
     padding-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    padding: 40px;
+  }
+
+  #logo {
+    font-size: 1em;
+  }
+
+  #menu-icon {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    height: auto;
+    top: 22px;
+    right: 40px;
+    background-color: transparent;
+    font-size: 1em;
+  }
+
+  nav > a {
+    color: #595959;
+  }
+  
+  nav > a:visited {
+    color: #595959;
+  }
+
+  hr {
+    display: none;
+  }
+
+  #intro, #services, #contact, #about {
+    font-size: 1.1em;
+  }
+
+  #intro {
+    height: 85vh;
+  }
+
+  #intro-div {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #intro-content {
+    width: 40vw;
+  }
+
+  #no-connection {
+    width: 38vw;
+  }
+
+  #services {
+    height: 100vh;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  #services > h4 {
+    font-size: 1.2em;
+  }
+
+  #success {
+    width: 32vw;
+  }
+
+  #about-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  #about-content {
+    width: 50vw;
+    color: white;
+  }
+
+  #doug-headshot {
+    width: 30vw;
+  }
+
+  h3 {
+    font-size: 5vw;
+  }
+
+  footer {
+    padding: 38px;
+  }
+
+  footer > h6 {
+    font-size: 0.9em;
   }
 }
