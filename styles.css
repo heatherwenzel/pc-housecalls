@@ -42,7 +42,7 @@ h3 {
 }
 
 #logo {
-  font-size: 1.2em;
+  font-size: 1em;
   text-transform: uppercase;
 }
 
@@ -110,7 +110,7 @@ footer > h6 {
 
 #intro {
   height: 92.25vh;
-  font-size: 4.5vw;
+  font-size: 4.25vw;
 }
 
 #intro-div {
@@ -119,6 +119,7 @@ footer > h6 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 4vh;
 }
 
 #intro-div > p {
@@ -129,13 +130,13 @@ footer > h6 {
   background-color: #00aec8;
   color: white;
   height: 100%;
-  font-size: 4.5vw;
+  font-size: 4.25vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 #services > h4 {
@@ -145,21 +146,11 @@ footer > h6 {
 
 #services > p {
   margin-top: 10px;
+  text-align: center;
 }
 
 #about {
   background-color: #62b5a5;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-#contact, #about {
-  height: 100vh;
-  font-size: 4.5vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 #about > h3 {
@@ -170,6 +161,16 @@ footer > h6 {
 #about > p {
   margin: 10px 0;
   color: white;
+  text-align: center;
+}
+
+#contact, #about {
+  height: 100vh;
+  font-size: 4.25vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #contact > p {
@@ -186,4 +187,12 @@ footer > h6 {
   border-radius: 50%;
   width: 70vw;
   margin: 10px;
+}
+
+@media screen and (min-height: 750px) {
+  #services {
+    height: 100vh;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
