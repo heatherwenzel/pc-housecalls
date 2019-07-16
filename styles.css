@@ -52,6 +52,7 @@ nav {
   right: 0;
   top: 64px;
   background-color: gray;
+  color: white;
 }
 
 nav > a {
@@ -87,12 +88,12 @@ footer > p {
 }
 
 #success {
-  width: 60vw;
+  width: 50vw;
   margin: 10px;
 }
 
 #intro {
-  height: 100vh;
+  height: 84.9vh;
   font-size: 1.2em;
 }
 
@@ -114,7 +115,7 @@ footer > p {
 }
 
 #services, #contact, #about {
-  height: 100vh;
+  height: 94.35vh;
   font-size: 1.2em;
   display: flex;
   flex-direction: column;
