@@ -183,114 +183,88 @@ footer {
   transform: translateX(-50%);
 }
 
-/* 
-
-#services {
-  background-color: #00aec8;
-  color: white;
-  height: 100%;
-  font-size: 4.25vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-top: 40px;
-  padding-bottom: 60px;
-}
-
-#services > h3 {
-  margin: 0;
-}
-
-#services-content {
-  text-align: center;
-}
-
-.service-icon {
-  display: none;
-}
-
-h4 {
-  font-size: 1.25em;
-}
-
-#services > p {
-  margin-top: 10px;
-  text-align: center;
-}
-
-#about {
-  background-color: #62b5a5;
-}
-
-#about > h3 {
-  color: white;
-}
-
-#about-content {
-  margin: 10px 0;
-  color: white;
-  text-align: center;
-}
-
-#contact,
-#about {
-  height: 100vh;
-  font-size: 4.25vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-#contact-div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#contact-content > p {
-  margin: 4px 0;
-  text-align: center;
-}
-
-#contact-content > p > a {
-  color: #00aec8;
-  text-decoration: none;
-}
-
-#about-div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#doug-headshot {
-  border-radius: 50%;
-  width: 60vw;
-}
-
-@media screen and (min-height: 640px) {
+/* @media screen and (min-height: 640px) {
   #services {
     height: 100vh;
     padding-top: 0;
     padding-bottom: 0;
   }
-}
+} */
 
 @media screen and (min-width: 768px) {
-  header {
-    padding: 40px;
-  }
-
-  #logo {
-    font-size: 1em;
-  }
-
   #menu-icon {
     display: none;
   }
 
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+    width: 28vw;
+    height: auto;
+    top: 10px;
+    right: 10px;
+  }
+
+  nav > a {
+    color: #595959;
+  }
+
+  nav > a:visited {
+    color: #595959;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .illustrations {
+    width: 40vw;
+  }
+
+  #intro-div {
+    flex-direction: row;
+    align-items: center;
+    width: 90vw;
+  }
+
+  #intro-content,
+  #intro-content > h2 {
+    width: 40vw;
+  }
+
+  h1 {
+    font-size: 1em;
+  }
+
+  h2 {
+    font-size: 4.5vw;
+    text-align: left;
+  }
+
+  h3 {
+    font-size: 2.5vw;
+  }
+
+  h6 {
+    font-size: 1.5vw;
+  }
+
+  p {
+    text-align: left;
+  }
+
+  #contact-content > img {
+    width: 28vw;
+  }
+
+  #doug-headshot {
+    width: 30vw;
+  }
+}
+
+/* @media screen and (min-width: 768px) {
   nav {
     display: flex;
     flex-direction: row;
@@ -300,14 +274,6 @@ h4 {
     right: 40px;
     background-color: transparent;
     font-size: 1em;
-  }
-
-  nav > a {
-    color: #595959;
-  }
-
-  nav > a:visited {
-    color: #595959;
   }
 
   hr {
@@ -409,9 +375,9 @@ h4 {
   footer > h6 {
     font-size: 0.9em;
   }
-}
+} */
 
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   nav {
     width: 20vw;
   }
