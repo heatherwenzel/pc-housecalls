@@ -311,9 +311,9 @@ footer > h6 {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   nav {
-    width: 26vw;
+    width: 20vw;
   }
 
   #call {
@@ -321,23 +321,43 @@ footer > h6 {
   }
 
   h3 {
+    font-size: 3vw;
     margin-top: 0;
   }
 
-  #services > h3, #contact > h3, #about > h3 {
-    padding-bottom: 8vh;
+  #intro {
+    width: 82vw;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   #intro-content {
-    width: 45vw;
+    width: 48vw;
   }
 
-  #intro-content > h3 {
-    padding-right: 1em;
+  #services > h3, #contact > h3, #about > h3 {
+    padding-bottom: 4vh;
   }
+
+  #service1 > h4, #service1 > p, #service2 > h4, #service2 > p, #service3 > h4, #service3 > p {
+    text-align: center;
+  }
+
+  #no-connection {
+    width: 30vw;
+  } 
 
   #no-connection, #intro-content {
     padding-bottom: 40px;
+  } 
+
+  h4 {
+    font-size: 1.4em;
+    margin-bottom: 0;
+  } 
+
+  #service1, #service2, #service3 {
+    width: 30%;
   }
 
   #services-content {
@@ -353,22 +373,10 @@ footer > h6 {
     width: 60vw;
   }
 
-  h4 {
-    font-size: 1.4em;
-  }
-
-  #service1, #service2, #service3 {
-    width: 30%;
-  }
-
   #success {
     width: 24vw;
     margin: 0;
-  }
-
-  #about {
-    align-items: center;
-  }
+  } 
 
   #about-div {
     align-items: center;
@@ -376,10 +384,10 @@ footer > h6 {
 
   #about-content {
     width: 40vw;
-  }
+  } 
 
   #doug-headshot {
-    width: 24vw;
+    width: 22vw;
     padding: 0 40px;
-  }
+  } 
 }
