@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: #595959;
 }
 
@@ -20,7 +20,7 @@ hr {
   width: 70vw;
   margin: 0;
   padding: 0;
-  border: .5px solid white;
+  border: 0.5px solid white;
 }
 
 h2 {
@@ -28,19 +28,29 @@ h2 {
 }
 
 h3 {
-  font-family: 'Bitter', serif;
+  font-family: "Bitter", serif;
   font-size: 8vw;
   letter-spacing: 1px;
-  margin-bottom: 4px;
+  margin: 0 0 2vh 0;
 }
 
-#menu-icon, nav {
+h4 {
+  margin-bottom: 2vh;
+}
+
+p {
+  margin: 1vh 0 vh 0;
+}
+
+#menu-icon,
+nav {
   position: absolute;
   right: 20px;
   top: 18px;
 }
 
-#menu-icon, #logo {
+#menu-icon,
+#logo {
   z-index: 1;
 }
 
@@ -67,9 +77,9 @@ nav {
   padding: 20px 0;
   right: 0;
   top: 60px;
-  background-color: #F39331;
+  background-color: #f39331;
   text-transform: uppercase;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 nav > a {
@@ -84,7 +94,7 @@ nav > a:visited {
 
 #call {
   font-size: 1.8em;
-  background-color: #F39331;
+  background-color: #f39331;
   color: white;
   border-radius: 50%;
   padding: 2vh;
@@ -101,7 +111,7 @@ footer {
 
 footer > h6 {
   margin: 0;
-  font-size: .8em;
+  font-size: 0.8em;
   text-align: center;
   text-transform: uppercase;
 }
@@ -122,21 +132,22 @@ footer > h6 {
 }
 
 #intro-div {
-  height: 82vh;
+  height: 78vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   padding-top: 1vh;
+  text-align: center;
 }
 
-#intro-div > p {
-  margin-top: 6px;
+#intro-content > h3 {
+  width: 72vw;
+  margin: auto;
 }
 
-#intro-div > h3 {
-  padding-right: 20px;
-  margin-top: 8px;
+#intro-content > p {
+  margin-top: 12px;
 }
 
 #services {
@@ -152,9 +163,12 @@ footer > h6 {
   padding-bottom: 60px;
 }
 
-#services > h4 {
-  margin-bottom: 0;
-  font-size: 1.4em;
+#services-content {
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.25em;
 }
 
 #services > p {
@@ -167,17 +181,17 @@ footer > h6 {
 }
 
 #about > h3 {
-  margin: 10px 0;
   color: white;
 }
 
-#about > p {
+#about-content {
   margin: 10px 0;
   color: white;
   text-align: center;
 }
 
-#contact, #about {
+#contact,
+#about {
   height: 100vh;
   font-size: 4.25vw;
   display: flex;
@@ -186,12 +200,18 @@ footer > h6 {
   justify-content: center;
 }
 
-#contact > p {
+#contact-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact-content > p {
   margin: 4px 0;
   text-align: center;
 }
 
-#contact > p > a {
+#contact-content > p > a {
   color: #00aec8;
   text-decoration: none;
 }
@@ -237,7 +257,7 @@ footer > h6 {
   nav > a {
     color: #595959;
   }
-  
+
   nav > a:visited {
     color: #595959;
   }
@@ -246,7 +266,10 @@ footer > h6 {
     display: none;
   }
 
-  #intro, #services, #contact, #about {
+  #intro,
+  #services,
+  #contact,
+  #about {
     font-size: 1.1em;
   }
 
@@ -335,28 +358,38 @@ footer > h6 {
     width: 48vw;
   }
 
-  #services > h3, #contact > h3, #about > h3 {
+  #services > h3,
+  #contact > h3,
+  #about > h3 {
     padding-bottom: 4vh;
   }
 
-  #service1 > h4, #service1 > p, #service2 > h4, #service2 > p, #service3 > h4, #service3 > p {
+  #service1 > h4,
+  #service1 > p,
+  #service2 > h4,
+  #service2 > p,
+  #service3 > h4,
+  #service3 > p {
     text-align: center;
   }
 
   #no-connection {
     width: 30vw;
-  } 
+  }
 
-  #no-connection, #intro-content {
+  #no-connection,
+  #intro-content {
     padding-bottom: 40px;
-  } 
+  }
 
   h4 {
     font-size: 1.4em;
     margin-bottom: 0;
-  } 
+  }
 
-  #service1, #service2, #service3 {
+  #service1,
+  #service2,
+  #service3 {
     width: 30%;
   }
 
@@ -376,7 +409,7 @@ footer > h6 {
   #success {
     width: 24vw;
     margin: 0;
-  } 
+  }
 
   #about-div {
     align-items: center;
@@ -384,10 +417,10 @@ footer > h6 {
 
   #about-content {
     width: 40vw;
-  } 
+  }
 
   #doug-headshot {
     width: 22vw;
     padding: 0 40px;
-  } 
+  }
 }
