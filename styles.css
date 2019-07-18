@@ -289,7 +289,6 @@ footer {
 
   p {
     text-align: left;
-
   }
 
   #services-content {
@@ -328,9 +327,133 @@ footer {
 }
 
 /* Tablet styling */
-/* @media screen and (min-width: 568px) {
+@media screen and (min-width: 568px) {
+  #menu-icon {
+    display: none;
+  }
 
-} */
+  header {
+    padding: 20px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+    width: 266px;
+    height: auto;
+    top: 20px;
+    right: 20px;
+    font-size: 1.25em;
+    font-weight: 400;
+  }
+
+  nav > a {
+    color: #595959;
+  }
+
+  nav > a:visited {
+    color: #595959;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .illustrations {
+    width: 40vw;
+  }
+
+  #intro-div {
+    flex-direction: row;
+    align-items: center;
+    width: 90vw;
+  }
+
+  #intro-content,
+  #intro-content > h2 {
+    width: 40vw;
+  }
+
+  h1 {
+    font-size: 1.25em;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 5vw;
+    text-align: left;
+  }
+
+  h3 {
+    font-size: 2.75vw;
+    margin-bottom: 0;
+  }
+
+  h6 {
+    font-size: 1.8vw;
+  }
+
+  p {
+    font-size: 1.3em;
+    text-align: left;
+  }
+
+  .icons {
+    display: flex;
+    width: 12vw;
+  }
+
+  #services-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0;
+    height: 90vh;
+  }
+
+  #service1, #service2, #service3 {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #services-content {
+    width: 80vw;
+  }
+
+  #contact-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2vh;
+  }
+
+  #contact-content > img {
+    width: 36vw;
+    margin: 0 40px;
+  }
+
+  #about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90vw;
+  }
+
+  #doug-headshot {
+    width: 40vw;
+    margin: 2vh 0;
+  }
+
+  #about-doug {
+    width: 50vw;
+    margin: 0;
+  }
+}
 
 /* Desktop styling */
 /* @media screen and (min-width: 1024px) {
@@ -394,17 +517,11 @@ footer {
   }
 
   #services-content {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 8vh;
-    width: 90vw;
+
   }
 
   #service1, #service2, #service3 {
-    width: 28vw;
-    display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   #contact-content {
