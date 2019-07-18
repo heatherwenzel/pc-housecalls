@@ -63,10 +63,10 @@ nav {
   z-index: 1;
   height: 28vh;
   justify-content: space-evenly;
-  letter-spacing: .25px;
+  letter-spacing: .5px;
   top: 62px;
   right: 0;
-  /* font-weight: 600; */
+  font-weight: 600;
 }
 
 nav > a {
