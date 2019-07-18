@@ -36,7 +36,7 @@ h6 {
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 1em;
   margin: 10px 0;
 }
 
@@ -64,7 +64,7 @@ nav {
   height: 28vh;
   justify-content: space-evenly;
   letter-spacing: .5px;
-  top: 62px;
+  top: 58px;
   right: 0;
   font-weight: 600;
 }
@@ -142,7 +142,7 @@ button {
 }
 
 .illustrations {
-  width: 58vw;
+  width: 48vw;
 }
 
 .icons {
@@ -198,8 +198,16 @@ footer {
 }
 
 @media screen and (min-height: 570px) {
+  .illustrations {
+    width: 58vw;
+  }
+
   #services {
     height: 100vh;
+  }
+
+  p {
+    font-size: 1.1em;
   }
 }
 
