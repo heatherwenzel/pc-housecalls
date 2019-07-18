@@ -138,7 +138,7 @@ button {
 }
 
 .icons {
-  width: 20vw;
+  width: 12vw;
   display: none;
 }
 
@@ -264,123 +264,105 @@ footer {
   }
 }
 
-/* @media screen and (min-width: 768px) {
-  nav {
-    display: flex;
-    flex-direction: row;
-    width: 30vw;
-    height: auto;
-    top: 22px;
-    right: 40px;
-    background-color: transparent;
-    font-size: 1em;
-  }
-
-  hr {
+@media screen and (min-width: 1024px) {
+  #call {
     display: none;
   }
 
-  #intro,
-  #services,
-  #contact,
-  #about {
-    font-size: 1.1em;
+  nav {
+    width: 22vw;
   }
 
-  #intro {
-    height: 85vh;
+  .illustrations {
+    width: 35vw;
   }
 
-  #intro-div {
-    flex-direction: row;
-    justify-content: space-between;
+  #intro-content, #intro-content > h2 {
+    width: 56vw;
   }
 
-  #intro-content {
-    width: 40vw;
+  #intro-div > img {
+    margin-right: 30px;
   }
 
-  #intro-content > h3 {
-    width: auto;
+  h2 {
+    font-size: 3.6vw;
   }
 
-  #no-connection {
-    width: 38vw;
+  #intro-content > a {
+    text-decoration: none;
   }
 
-  #services {
-    height: 100vh;
-    padding-top: 0;
-    padding-bottom: 0;
+  button {
+    display: block;
+    background-color: #f39331;
+    border: #f39331;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 1em;
+    margin-top: 8vh;
+    cursor: pointer;
   }
 
-  #services > h3 {
-    padding-bottom: 10vh;
+  button > a {
+    text-decoration: none;
+  }
+
+  .icons {
+    display: flex;
   }
 
   #services-content {
     display: flex;
     justify-content: space-between;
+    margin-top: 8vh;
   }
 
-  #service1 > p, #service2 > p, #service3 > p {
-    margin-top: 6px;
-  }
-
-  #service1,
-  #service2,
-  #service3 {
-    width: 30%;
+  #service1, #service2, #service3 {
+    width: 30vw;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .service-icon {
-    display: block;
-    width: 10vw;
-    margin-bottom: 20px;
-  }
-
-  #success {
-    width: 28vw;
-    margin: 30px 0;
-  }
-
-  #about-div {
+  #contact-content {
     display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
   }
 
+  #contact-content > img {
+    margin: 0;
+  }
+
+  #contact-details {
+    width: 30vw;
+  }
+
   #about-content {
-    width: 50vw;
-    color: white;
-    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 60vw;
   }
 
   #doug-headshot {
-    width: 30vw;
-    padding: 0 40px 0 20px;
+    width: 20vw;
   }
 
-  h3 {
-    font-size: 5vw;
-  }
-
-  footer {
-    padding: 38px;
+  #about-doug {
+    width: 38vw;
+    margin: 0;
   }
 
   footer > h6 {
-    font-size: 0.9em;
+    font-size: 1.2vw;
   }
-} */
+}
 
 /* @media screen and (min-width: 1024px) {
-  nav {
-    width: 20vw;
-  }
 
   p {
     font-size: 0.9em;
