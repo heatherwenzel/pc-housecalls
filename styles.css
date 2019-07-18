@@ -329,7 +329,7 @@ footer {
 
 
 /* Tablet styling */
-@media screen and (min-width: 568px) {
+@media screen and (min-width: 568px) and (min-height: 414px)  {
   #menu-icon {
     display: none;
   }
