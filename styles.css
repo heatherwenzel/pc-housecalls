@@ -326,6 +326,8 @@ footer {
   }
 }
 
+
+
 /* Tablet styling */
 @media screen and (min-width: 568px) {
   #menu-icon {
@@ -341,12 +343,13 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     background-color: transparent;
-    width: 266px;
+    width: 260px;
     height: auto;
     top: 20px;
     right: 20px;
     font-size: 1.25em;
     font-weight: 400;
+    letter-spacing: 0;
   }
 
   nav > a {
@@ -455,44 +458,53 @@ footer {
   }
 }
 
-/* Desktop styling */
-/* @media screen and (min-width: 1024px) {
-  header {
-    margin: 20px;
-  }
 
+
+/* Desktop styling */
+@media screen and (min-width: 1024px) {
   #call {
     display: none;
   }
 
+  h1, nav {
+    font-size: 16px;
+  }
+
   nav {
     width: 210px;
-    top: 20px;
-    right: 20px;
   }
 
   .illustrations {
-    width: 32vw;
+    width: 26vw;
+  }
+
+  .icons {
+    width: 10vw;
+  }
+
+  #intro {
+    height: 90vh;
+  }
+
+  #intro-div {
+    width: 96vw;
+    height: 100vh;
   }
 
   #intro-content, #intro-content > h2 {
-    width: 50vw;
-  }
-
-  #intro-div > img {
-    margin-right: 30px;
+    width: 54vw;
   }
 
   h2 {
-    font-size: 32px;
+    font-size: 34px;
   }
 
   h3 {
-    font-size: 24px;
+    font-size: 22px;
   }
 
-  #intro-content > a {
-    text-decoration: none;
+  p {
+    font-size: 16px;
   }
 
   button {
@@ -507,44 +519,41 @@ footer {
     cursor: pointer;
   }
 
-  button > a {
+  #intro-content > a {
     text-decoration: none;
   }
 
-  .icons {
-    display: flex;
-    width: 12vw;
-  }
-
   #services-content {
-
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 96vw;
+    height: 70vh;
   }
 
   #service1, #service2, #service3 {
-    flex-direction: column;
+    width: 26vw;
   }
 
-  #contact-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  #contact-content > img {
-    margin: 0;
+  #service1 > p, #service2 > p, #service3 > p {
+    text-align: center;
   }
 
   #contact-details {
-    width: 30vw;
+    width: 26vw;
+  }
+
+  #contact-content > img {
+    width: 25vw;
   }
 
   #about-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     justify-content: space-between;
-    width: 60vw;
+    width: 62vw;
   }
 
   #doug-headshot {
@@ -557,6 +566,6 @@ footer {
   }
 
   footer > h6 {
-    font-size: 14px;
+    font-size: 12px;
   }
-} */
+}
