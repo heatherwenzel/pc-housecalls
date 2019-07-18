@@ -218,10 +218,11 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     background-color: transparent;
-    width: 28vw;
+    width: 220px;
     height: auto;
     top: 10px;
     right: 10px;
+    font-size: 1em;
   }
 
   nav > a {
@@ -237,7 +238,7 @@ footer {
   }
 
   .illustrations {
-    width: 40vw;
+    width: 38vw;
   }
 
   #intro-div {
@@ -253,6 +254,7 @@ footer {
 
   h1 {
     font-size: 1em;
+    margin: 0;
   }
 
   h2 {
@@ -270,6 +272,7 @@ footer {
 
   p {
     text-align: left;
+    font-size: 1em;
   }
 
   #services-content {
