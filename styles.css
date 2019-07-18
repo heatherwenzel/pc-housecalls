@@ -301,6 +301,10 @@ footer {
     font-size: 32px;
   }
 
+  h3 {
+    font-size: 22px;
+  }
+
   #intro-content > a {
     text-decoration: none;
   }
