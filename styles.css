@@ -36,7 +36,7 @@ h6 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 1.1em;
   margin: 10px 0;
 }
 
@@ -113,7 +113,11 @@ hr {
   padding: 0 30px;
 }
 
-#services,
+#services {
+  justify-content: center;
+  height: 100%;
+}
+
 #about,
 #contact {
   justify-content: center;
@@ -193,7 +197,13 @@ footer {
   transform: translateX(-50%);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-height: 560px) {
+  #services {
+    height: 100vh;
+  }
+}
+
+@media screen and (min-width: 600px) {
   #menu-icon {
     display: none;
   }
