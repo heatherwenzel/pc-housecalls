@@ -95,11 +95,8 @@ hr {
   z-index: 1;
 }
 
-#intro,
-#services,
-#about,
-#contact {
-  height: 100vh;
+#intro {
+  height: 84vh;
 }
 
 #intro,
@@ -117,11 +114,12 @@ hr {
 #about,
 #contact {
   justify-content: center;
+  height: 100vh;
 }
 
 #intro-div {
   margin-top: 2vh;
-  height: 80vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
