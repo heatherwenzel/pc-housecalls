@@ -64,6 +64,8 @@ nav {
   height: 28vh;
   justify-content: space-evenly;
   letter-spacing: .25px;
+  top: 62px;
+  right: 0;
 }
 
 nav > a {
