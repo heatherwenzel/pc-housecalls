@@ -157,7 +157,7 @@ button {
 }
 
 #contact-content > img {
-  width: 62vw;
+  width: 55vw;
   margin: 6vh 0;
 }
 
@@ -188,14 +188,6 @@ footer {
   left: 50%;
   transform: translateX(-50%);
 }
-
-/* @media screen and (min-height: 640px) {
-  #services {
-    height: 100vh;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-} */
 
 @media screen and (min-width: 768px) {
   #menu-icon {
@@ -261,12 +253,20 @@ footer {
     text-align: left;
   }
 
+  #services-content {
+    width: 50vw;
+  }
+
   #contact-content > img {
     width: 28vw;
   }
 
   #doug-headshot {
     width: 30vw;
+  }
+
+  #about-doug {
+    width: 50vw;
   }
 }
 
