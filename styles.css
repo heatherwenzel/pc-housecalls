@@ -271,20 +271,26 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
+  header {
+    margin: 20px;
+  }
+
   #call {
     display: none;
   }
 
   nav {
-    width: 22vw;
+    width: 210px;
+    top: 20px;
+    right: 20px;
   }
 
   .illustrations {
-    width: 35vw;
+    width: 32vw;
   }
 
   #intro-content, #intro-content > h2 {
-    width: 56vw;
+    width: 50vw;
   }
 
   #intro-div > img {
@@ -292,7 +298,7 @@ footer {
   }
 
   h2 {
-    font-size: 3.6vw;
+    font-size: 32px;
   }
 
   #intro-content > a {
@@ -306,8 +312,8 @@ footer {
     color: white;
     padding: 10px 30px;
     border-radius: 20px;
-    font-size: 1em;
-    margin-top: 8vh;
+    font-size: 16px;
+    margin-top: 24px;
     cursor: pointer;
   }
 
@@ -323,10 +329,11 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-top: 8vh;
+    width: 90vw;
   }
 
   #service1, #service2, #service3 {
-    width: 30vw;
+    width: 28vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -348,6 +355,7 @@ footer {
 
   #about-content {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     justify-content: space-between;
@@ -367,93 +375,3 @@ footer {
     font-size: 1.2vw;
   }
 }
-
-/* @media screen and (min-width: 1024px) {
-
-  p {
-    font-size: 0.9em;
-  }
-
-  #call {
-    display: none;
-  }
-
-  h3 {
-    font-size: 3vw;
-    margin-top: 0;
-  }
-
-  #intro {
-    width: 82vw;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  #intro-div {
-    text-align: left;
-  }
-
-  #intro-content {
-    width: 48vw;
-  }
-
-  #contact > h3,
-  #about > h3 {
-    padding-bottom: 4vh;
-  }
-
-  #service1 > h4,
-  #service1 > p,
-  #service2 > h4,
-  #service2 > p,
-  #service3 > h4,
-  #service3 > p {
-    text-align: center;
-  }
-
-  #no-connection {
-    width: 30vw;
-  }
-
-  #no-connection,
-  #intro-content {
-    padding-bottom: 40px;
-  }
-
-  h4 {
-    font-size: 1.4em;
-    margin-bottom: 0;
-  }
-
-  #service1,
-  #service2,
-  #service3 {
-    width: 30%;
-  }
-
-  #contact-div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 60vw;
-  }
-
-  #success {
-    width: 24vw;
-    margin: 0;
-  }
-
-  #about-div {
-    align-items: center;
-  }
-
-  #about-content {
-    width: 40vw;
-  }
-
-  #doug-headshot {
-    width: 22vw;
-    padding: 0 40px;
-  }
-} */
