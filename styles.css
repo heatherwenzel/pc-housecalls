@@ -208,7 +208,7 @@ footer {
     width: 48vw;
 }
 
-@media screen and (min-width: 568px) {
+@media screen and (min-width: 568px) and (max-height: 414px) {
   #menu-icon {
     display: none;
   }
@@ -221,7 +221,7 @@ footer {
     width: 220px;
     height: auto;
     top: 10px;
-    right: 10px;
+    right: 20px;
     font-size: 1em;
   }
 
@@ -238,7 +238,7 @@ footer {
   }
 
   .illustrations {
-    width: 38vw;
+    width: 30vw;
   }
 
   #intro-div {
@@ -263,7 +263,7 @@ footer {
   }
 
   h3 {
-    font-size: 2.5vw;
+    font-size: 2.75vw;
   }
 
   h6 {
@@ -276,19 +276,37 @@ footer {
   }
 
   #services-content {
-    width: 50vw;
+    width: 80vw;
+  }
+
+  #contact-content {
+    display: flex;
+    align-items: center;
   }
 
   #contact-content > img {
-    width: 28vw;
+    width: 22vw;
+    margin: 0;
+  }
+
+  #contact-details {
+    width: 42vw;
+  }
+
+  #about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90vw;
   }
 
   #doug-headshot {
-    width: 30vw;
+    width: 26vw;
   }
 
   #about-doug {
-    width: 50vw;
+    width: 40vw;
+    margin: 0;
   }
 }
 
