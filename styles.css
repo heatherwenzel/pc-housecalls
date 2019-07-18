@@ -203,7 +203,12 @@ footer {
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 414px) {
+  .illustrations {
+    width: 48vw;
+}
+
+@media screen and (min-width: 568px) {
   #menu-icon {
     display: none;
   }
