@@ -121,11 +121,10 @@ hr {
 }
 
 #intro-div {
-  margin-top: 2vh;
-  height: 70vh;
+  height: 74vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
