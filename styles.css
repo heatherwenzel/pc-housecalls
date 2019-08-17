@@ -21,7 +21,7 @@ h1 {
 h2 {
   font-family: "Bitter", serif;
   font-size: 8vw;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   margin-bottom: 10px;
 }
 
@@ -160,7 +160,8 @@ button {
   margin: 6vh 0;
 }
 
-#contact-details > p > a {
+#contact-details > p > a,
+h6 > a {
   color: #00aec8;
   text-decoration: none;
   font-weight: 600;
@@ -195,8 +196,6 @@ footer {
   transform: translateX(-50%);
 }
 
-
-
 /* Non-iPhone 5 mobile adjustments */
 @media screen and (min-height: 570px) {
   .illustrations {
@@ -212,16 +211,12 @@ footer {
   }
 }
 
-
-
 /* iPhone 6-8 Plus mobile adjustment */
 @media screen and (min-width: 414px) {
   .illustrations {
     width: 48vw;
   }
 }
-
-
 
 /* Horizontal mobile styling */
 @media screen and (min-width: 568px) and (max-height: 414px) {
@@ -263,6 +258,7 @@ footer {
     flex-direction: row;
     align-items: center;
     width: 90vw;
+    height: 85vh;
   }
 
   #intro-content,
@@ -327,16 +323,14 @@ footer {
   }
 }
 
-
-
 /* Tablet styling */
-@media screen and (min-width: 568px) and (min-height: 414px)  {
+@media screen and (min-width: 700px) and (min-height: 414px) {
   #menu-icon {
     display: none;
   }
 
   header {
-    padding: 20px;
+    padding: 3vw;
   }
 
   nav {
@@ -346,8 +340,8 @@ footer {
     background-color: transparent;
     width: 260px;
     height: auto;
-    top: 20px;
-    right: 20px;
+    top: 3vw;
+    right: 3vw;
     font-size: 1.25em;
     font-weight: 400;
   }
@@ -372,6 +366,7 @@ footer {
     flex-direction: row;
     align-items: center;
     width: 90vw;
+    height: 86vh;
   }
 
   #intro-content,
@@ -416,7 +411,9 @@ footer {
     height: 90vh;
   }
 
-  #service1, #service2, #service3 {
+  #service1,
+  #service2,
+  #service3 {
     width: 80vw;
     display: flex;
     flex-direction: column;
@@ -458,15 +455,14 @@ footer {
   }
 }
 
-
-
 /* Desktop styling */
 @media screen and (min-width: 1024px) {
   #call {
     display: none;
   }
 
-  h1, nav {
+  h1,
+  nav {
     font-size: 16px;
   }
 
@@ -483,7 +479,7 @@ footer {
   }
 
   #intro {
-    height: 92vh;
+    height: 90vh;
   }
 
   #intro-div {
@@ -491,7 +487,8 @@ footer {
     height: 100vh;
   }
 
-  #intro-content, #intro-content > h2 {
+  #intro-content,
+  #intro-content > h2 {
     width: 50vw;
   }
 
@@ -531,11 +528,15 @@ footer {
     height: 70vh;
   }
 
-  #service1, #service2, #service3 {
+  #service1,
+  #service2,
+  #service3 {
     width: 26vw;
   }
 
-  #service1 > p, #service2 > p, #service3 > p {
+  #service1 > p,
+  #service2 > p,
+  #service3 > p {
     text-align: center;
   }
 
@@ -567,5 +568,40 @@ footer {
 
   footer > h6 {
     font-size: 12px;
+  }
+}
+
+/* 4k styling */
+@media screen and (min-width: 2500px) {
+  .illustrations {
+    width: 20vw;
+  }
+
+  #contact-content > img {
+    width: 16vw;
+  }
+
+  #intro-div {
+    width: 75vw;
+  }
+
+  #intro-content {
+    width: 36vw;
+  }
+
+  .icons {
+    width: 8vw;
+  }
+
+  #about-content {
+      width: 46vw;
+  }
+
+  #about-doug {
+    width: 28vw;
+  }
+
+  #doug-headshot {
+    width: 15vw;
   }
 }
